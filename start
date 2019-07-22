@@ -1,0 +1,6 @@
+#!/bin/bash
+
+su-exec botuser /start01configure
+
+echo "Launching bot"
+cd /bot/phantombot && ./launch-service.sh -D

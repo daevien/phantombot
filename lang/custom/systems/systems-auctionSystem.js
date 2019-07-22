@@ -1,0 +1,14 @@
+$.lang.register('auctionsystem.usage', 'Uso: !auction open (incrementos) (minimum bid) (auto close timer)');
+$.lang.register('auctionsystem.err.opened', 'Hay una subasta corriendo.');
+$.lang.register('auctionsystem.opened', 'Se abre la subasta! Puedes incrementar cantidades de al menos $1. La puja mínima permitida es $2! Comienza con !bid (cantidad)');
+$.lang.register('auctionsystem.auto.timer.msg', 'La subasta se cerrará automáticmente en $1 segundos!');
+$.lang.register('auctionsystem.err.closed', 'No hay subastas en este momento.');
+$.lang.register('auctionsystem.err.no.bids', 'Se cierra la subasta! Nadie ha pujado.');
+$.lang.register('auctionsystem.closed', 'Subasta cerrada! El ganador de esta subasta es $1 con $2!');
+$.lang.register('auctionsystem.warn.force', 'La subasta está por cerrar! El postor a la cabeza es $1 con $2! Tenemos $3?');
+$.lang.register('auctionsystem.warn', 'El postor a la cabeza es $1 con $2!');
+$.lang.register('auctionsystem.bid.usage', 'Uso: !bid (cantidad)');
+$.lang.register('auctionsystem.err.bid.minimum', 'No puedes pujar debajo de $1!');
+$.lang.register('auctionsystem.err.points', 'No tienes suficientes $1 para pujar.');
+$.lang.register('auctionsystem.err.increments', 'La subasta recibe incrementos de $1!');
+$.lang.register('auctionsystem.bid', '$1 acaba de pujar $2! Tenemos $3?');

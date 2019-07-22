@@ -1,0 +1,17 @@
+$.lang.register('pollsystem.vote.nopoll', 'No hay encuestas activas en este momento.');
+$.lang.register('pollsystem.vote.already', 'Ya votaste!');
+$.lang.register('pollsystem.vote.invalid', '"$1" no es una opción válida!');
+$.lang.register('pollsystem.vote.success', 'Votaste "$1" a "$2".');
+$.lang.register('pollsystem.poll.started', '$1 inició una encuesta por $2 segundos (votos mínimos: $3): $4! Usa "!vote [opcion]" para votar. Opciones: $5');
+$.lang.register('pollsystem.poll.running', 'Hay una encuesta activa por "$1". Uso "!vote [opción]" para votar. Las opciones son "$2".');
+$.lang.register('pollsystem.poll.usage', 'uso: !poll [open | results | close]');
+$.lang.register('pollsystem.results.lastpoll', '[Ultima Encuesta]  - [Pregunta: "$1"] - [Votos Totales: $2] - [Resultado: "$3"] - [Ganadores: "$4"] [Votos: $5]');
+$.lang.register('pollsystem.results.running', 'Actualmente hay una encuesta activa!');
+$.lang.register('pollsystem.results.404', 'No hay encuestas recientes!');
+$.lang.register('pollsystem.open.usage', 'uso: !poll open "pregunta" "opcion1, opcion2, ..." [segundos] [votos mínimos].  Si los segundos se ponen en 0, se cambiarán a 60.');
+$.lang.register('pollsystem.open.moreoptions', 'Se require más de una opción para la encuesta.');
+$.lang.register('pollsystem.runpoll.novotes', 'Se cierra la encuesta para "$1"! No hubo suficientes votos!');
+$.lang.register('pollsystem.runpoll.winner', 'Se cierra la encuesta de "$1"! El ganador es "$2"!');
+$.lang.register('pollsystem.runpoll.tie', 'La encuesta de "$1" termina en empate! Checa resultados con !poll results.');
+$.lang.register('pollsystem.runpoll.started', 'Inicia la encuesta! Usa "!poll close" para cerrarla manualmente');
+$.lang.register('pollsystem.close.nopoll', 'No hay encuesta activa.');
