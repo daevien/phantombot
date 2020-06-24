@@ -13,3 +13,5 @@ docker run -d \
   --restart=always \
   aldovc/phantombot:3.2.0
 ```
+
+Notes: Custom language is not working atm (v3.2.0) so it is not included in this image
