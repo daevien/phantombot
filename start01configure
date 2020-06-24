@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export BOTLOGIN=/bot/phantombot/config/botlogin.txt
+export BOTLOGIN=/phantombot/config/botlogin.txt
 
 function setProp {
   local prop=$1
