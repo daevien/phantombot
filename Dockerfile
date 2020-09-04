@@ -2,7 +2,7 @@ FROM openjdk:11-jre-slim
 LABEL maintainer "Aldotroid"
 
 # Version
-ARG PHANTOMBOT_VERSION='3.2.0'
+ARG PHANTOMBOT_VERSION='3.3.2'
 
 # Install dependencies
 RUN apt update && apt install -y wget unzip
